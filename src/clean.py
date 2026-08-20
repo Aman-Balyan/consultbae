@@ -183,16 +183,21 @@ def clean_source3(path="data/source3_cbnexus_contacts.csv"):
 
 
 if __name__ == "__main__":
+    import os
+    OUT_DIR = "output/stage1"
+    os.makedirs(OUT_DIR, exist_ok=True)
+
     d1, _ = clean_source1()
     d2, _ = clean_source2()
     d3, _ = clean_source3()
 
-    d1.to_csv("output/clean_source1.csv", index=False)
-    d2.to_csv("output/clean_source2.csv", index=False)
-    d3.to_csv("output/clean_source3.csv", index=False)
-    pd.DataFrame(ISSUES).to_csv("output/stage1_issues_log.csv", index=False)
+    d1.to_csv(f"{OUT_DIR}/clean_source1.csv", index=False)
+    d2.to_csv(f"{OUT_DIR}/clean_source2.csv", index=False)
+    d3.to_csv(f"{OUT_DIR}/clean_source3.csv", index=False)
+    pd.DataFrame(ISSUES).to_csv(f"{OUT_DIR}/issues_log.csv", index=False)
 
-    print(f"source1: {len(d1)} clean rows")
-    print(f"source2: {len(d2)} clean rows")
-    print(f"source3: {len(d3)} clean rows")
-    print(f"issues logged: {len(ISSUES)}")
+    print(f"[stage1] wrote cleaned files to {OUT_DIR}/")
+    print(f"[stage1] source1: {len(d1)} clean rows")
+    print(f"[stage1] source2: {len(d2)} clean rows")
+    print(f"[stage1] source3: {len(d3)} clean rows")
+    print(f"[stage1] issues logged: {len(ISSUES)}")

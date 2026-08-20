@@ -1,0 +1,41 @@
+source,row_ref,issue,action
+source1,4,"Current CTC given in Lakhs (4.2), converted to absolute rupees",converted
+source1,6,"Current CTC given in Lakhs (8.3), converted to absolute rupees",converted
+source1,12,"Current CTC given in Lakhs (5.1), converted to absolute rupees",converted
+source1,14,"Current CTC given in Lakhs (6.1), converted to absolute rupees",converted
+source1,15,"Current CTC given in Lakhs (5.8), converted to absolute rupees",converted
+source1,16,"Current CTC given in Lakhs (11.2), converted to absolute rupees",converted
+source1,17,"Current CTC given in Lakhs (7.6), converted to absolute rupees",converted
+source1,19,"Current CTC given in Lakhs (2.4), converted to absolute rupees",converted
+source1,20,"Current CTC given in Lakhs (10.0), converted to absolute rupees",converted
+source1,22,"Current CTC given in Lakhs (11.9), converted to absolute rupees",converted
+source1,23,"Current CTC given in Lakhs (6.1), converted to absolute rupees",converted
+source1,25,"Current CTC given in Lakhs (7.8), converted to absolute rupees",converted
+source1,26,"Current CTC given in Lakhs (6.6), converted to absolute rupees",converted
+source1,29,"Current CTC given in Lakhs (6.1), converted to absolute rupees",converted
+source1,30,"Current CTC given in Lakhs (7.6), converted to absolute rupees",converted
+source1,32,"Current CTC given in Lakhs (2.7), converted to absolute rupees",converted
+source1,34,"Current CTC given in Lakhs (11.4), converted to absolute rupees",converted
+source1,35,"Current CTC given in Lakhs (7.8), converted to absolute rupees",converted
+source1,37,"Current CTC given in Lakhs (9.3), converted to absolute rupees",converted
+source1,38,"Current CTC given in Lakhs (5.9), converted to absolute rupees",converted
+source1,40,"Current CTC given in Lakhs (10.3), converted to absolute rupees",converted
+source1,29,"exact duplicate of an earlier row (same email+phone), name='Rohit Verma'",dropped
+source2,4,"rate given as monthly (15k/month), converted to hourly using 160 hrs/month assumption",converted
+source2,8,"rate given as monthly (72k/month), converted to hourly using 160 hrs/month assumption",converted
+source2,10,fully blank row,dropped
+source2,12,"rate given as monthly (28k/month), converted to hourly using 160 hrs/month assumption",converted
+source2,14,"rate given as monthly (56k/month), converted to hourly using 160 hrs/month assumption",converted
+source2,15,"rate given as monthly (79k/month), converted to hourly using 160 hrs/month assumption",converted
+source2,16,"rate given as monthly (42k/month), converted to hourly using 160 hrs/month assumption",converted
+source2,17,"rate given as monthly (73k/month), converted to hourly using 160 hrs/month assumption",converted
+source2,18,"column-shifted row detected (email found in wrong column): raw={'email_id': 'react, javascript, mysql', 'worker_name': 'ISHA.CHOPRA95@MAILTEST.EXAMPLE.ORG', 'rate': 'Isha Chopra', 'location': '1406/hr', 'status': 'Pune', 'skill_tags': 'active'}",repaired by content-pattern classification of every field
+source2,19,"rate given as monthly (55k/month), converted to hourly using 160 hrs/month assumption",converted
+source2,21,"rate given as monthly (22k/month), converted to hourly using 160 hrs/month assumption",converted
+source2,22,"rate given as monthly (21k/month), converted to hourly using 160 hrs/month assumption",converted
+source2,24,"rate given as monthly (59k/month), converted to hourly using 160 hrs/month assumption",converted
+source2,26,"rate given as monthly (38k/month), converted to hourly using 160 hrs/month assumption",converted
+source2,29,"rate given as monthly (73k/month), converted to hourly using 160 hrs/month assumption",converted
+source2,31,"rate given as monthly (71k/month), converted to hourly using 160 hrs/month assumption",converted
+source2,ALL,source file has no phone number column at all,matching for this source relies on email/name+city only
+source3,14,embedded duplicate header row found mid-file,dropped

@@ -1,0 +1,47 @@
+tier,key_type,key_value,uids,confidence
+1,phone,9000000254,"['source1_naukri_0', 'source3_cbnexus_20']",high
+1,phone,9000000287,"['source1_naukri_2', 'source3_cbnexus_9']",high
+1,phone,9000000113,"['source1_naukri_3', 'source3_cbnexus_18']",high
+1,phone,9000000143,"['source1_naukri_5', 'source3_cbnexus_7']",high
+1,phone,9000000227,"['source1_naukri_6', 'source3_cbnexus_8']",high
+1,phone,9000000138,"['source1_naukri_7', 'source3_cbnexus_16']",high
+1,phone,9000000260,"['source1_naukri_10', 'source3_cbnexus_5']",high
+1,phone,9000000211,"['source1_naukri_13', 'source3_cbnexus_12']",high
+1,phone,9000000146,"['source1_naukri_14', 'source3_cbnexus_1']",high
+1,phone,9000000106,"['source1_naukri_15', 'source3_cbnexus_13']",high
+1,phone,9000000223,"['source1_naukri_16', 'source3_cbnexus_17']",high
+1,phone,9000000263,"['source1_naukri_17', 'source3_cbnexus_10']",high
+1,phone,9000000131,"['source1_naukri_18', 'source3_cbnexus_3']",high
+1,phone,9000000162,"['source1_naukri_20', 'source3_cbnexus_22']",high
+1,phone,9000000116,"['source1_naukri_21', 'source3_cbnexus_6']",high
+1,phone,9000000103,"['source1_naukri_25', 'source1_naukri_35']",high
+1,phone,9000000231,"['source1_naukri_26', 'source3_cbnexus_2']",high
+1,phone,9000000170,"['source1_naukri_27', 'source3_cbnexus_21']",high
+1,phone,9000000133,"['source1_naukri_28', 'source3_cbnexus_24']",high
+1,phone,9000000268,"['source1_naukri_30', 'source3_cbnexus_0']",high
+1,phone,9000000296,"['source1_naukri_31', 'source3_cbnexus_23']",high
+1,phone,9000000137,"['source1_naukri_32', 'source3_cbnexus_19']",high
+1,phone,9000000148,"['source1_naukri_36', 'source3_cbnexus_11']",high
+1,phone,9000000104,"['source1_naukri_37', 'source3_cbnexus_4']",high
+1,phone,9000000295,"['source1_naukri_38', 'source3_cbnexus_15']",high
+1,phone,9000000273,"['source1_naukri_41', 'source3_cbnexus_25']",high
+2,email,tanvi.gupta31@example.com,"['source1_naukri_0', 'source2_gig_9']",high
+2,email,vikram.saxena60@example.com,"['source1_naukri_3', 'source2_gig_7']",high
+2,email,isha.chopra95@mailtest.example.org,"['source1_naukri_7', 'source2_gig_5', 'source2_gig_18']",high
+2,email,karan.bhatia32@mailtest.example.org,"['source1_naukri_13', 'source2_gig_2']",high
+2,email,arjun.mishra70@example.com,"['source1_naukri_15', 'source2_gig_3']",high
+2,email,meera.bhatia52@mailtest.example.org,"['source1_naukri_16', 'source2_gig_6']",high
+2,email,varun.jain29@example.com,"['source1_naukri_17', 'source2_gig_0']",high
+2,email,sneha.chopra99@example.in,"['source1_naukri_20', 'source2_gig_12']",high
+2,email,varun.saxena21@example.in,"['source1_naukri_27', 'source2_gig_11']",high
+2,email,gaurav.mehta79@mailtest.example.org,"['source1_naukri_28', 'source2_gig_14']",high
+2,email,deepak.nair44@example.com,"['source1_naukri_31', 'source2_gig_13']",high
+2,email,rahul.chopra70@example.com,"['source1_naukri_32', 'source2_gig_8']",high
+2,email,tanvi.agarwal97@example.in,"['source1_naukri_36', 'source2_gig_1']",high
+2,email,isha.kapoor54@example.com,"['source1_naukri_38', 'source2_gig_4']",high
+2,email,neha.bhatia60@mailtest.example.org,"['source1_naukri_41', 'source2_gig_15']",high
+3,name+city,"('arjun mehta', 'noida')","['source2_gig_16', 'source3_cbnexus_26']",low
+3,name+city,"('manish bhatia', 'noida')","['source2_gig_17', 'source3_cbnexus_27']",low
+3,name+city,"('divya chopra', 'noida')","['source2_gig_19', 'source3_cbnexus_28']",low
+3,name+city,"('karan chopra', 'pune')","['source2_gig_20', 'source3_cbnexus_29']",low
+3,name+city,"('vikram mehta', 'pune')","['source2_gig_21', 'source3_cbnexus_30']",low
