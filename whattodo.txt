@@ -1,0 +1,9 @@
+pip install -r requirements.txt
+
+choco install ffmpeg
+
+python src\run_pipeline.py
+
+for the app
+cd app
+python app.py
