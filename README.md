@@ -118,6 +118,7 @@ Task 2 (n8n automation), Task 3 (audio app writing into `audio_submissions`).
 
 ## Stuck log
 (to be filled in as we go — required in final submission)
+<<<<<<< HEAD
 
 ---
 
@@ -196,3 +197,5 @@ has a valid person link, per the assignment's requirement.
 - webm/opus (what Chrome's MediaRecorder actually produces)
 - Edge cases: pure silence (correctly flagged), over-amplified/clipping audio
   (correctly flagged)
+=======
+>>>>>>> 45ef9a2dd8f891311568b6bb5244d1d8d9d40d68
